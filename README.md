@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Qube
 
-## Getting Started
+GPT 기반 자기 탐색 & 성장 가이드 서비스
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ 소개
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Qube는 ChatGPT를 활용해  
+사용자가 자신에 대해 더 깊이 탐구하고,  
+개인화된 성장 방향을 발견할 수 있도록 돕는 서비스입니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 자기 인식 질문 시스템
+- 감정/행동/가치 기반 프롬프트 최적화
+- AI 응답 기반의 성장 가이드 제공
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ 기술 스택
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: Next.js, TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Recoil
+- **API 연동**: (예정) OpenAI API
+- **배포**: Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 향후 계획
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- GPT 프롬프트 최적화 로직 개선
+- 성장 가이드 결과 출력 설계
+- 캐싱/로딩 최적화
+- 질문 카테고리 기반 추천 기능
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
